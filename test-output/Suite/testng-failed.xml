@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.flipkart.testlisteners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="GoogleSearchTest(failed)">
+    <classes>
+      <class name="com.qa.flipkart.tests.GoogleSearchTest">
+        <methods>
+          <include name="googleSearchTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="googleTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.flipkart.tests.GoogleSearchTest -->
+    </classes>
+  </test> <!-- GoogleSearchTest(failed) -->
+  <test thread-count="5" name="AccountPage Test(failed)">
+    <classes>
+      <class name="com.qa.flipkart.tests.GoogleResultTest">
+        <methods>
+          <include name="searchResultSetup"/>
+          <include name="setup"/>
+          <include name="googleResultCountTest"/>
+          <include name="tearDown"/>
+          <include name="googleResultLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.flipkart.tests.GoogleResultTest -->
+    </classes>
+  </test> <!-- AccountPage Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

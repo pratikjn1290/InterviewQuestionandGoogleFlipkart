@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22604" started-at="2020-12-18T22:12:09 IST" finished-at="2020-12-18T22:12:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22604" started-at="2020-12-18T22:12:09 IST" finished-at="2020-12-18T22:12:32 IST">
+      <class name="com.qa.flipkart.tests.GoogleResultTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.flipkart.tests.GoogleResultTest@23a5fd2]" name="setup" is-config="true" duration-ms="10083" started-at="2020-12-18T22:12:09 IST" finished-at="2020-12-18T22:12:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchResultSetup()[pri:0, instance:com.qa.flipkart.tests.GoogleResultTest@23a5fd2]" name="searchResultSetup" is-config="true" duration-ms="5725" started-at="2020-12-18T22:12:19 IST" finished-at="2020-12-18T22:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultSetup -->
+        <test-method status="PASS" signature="googleResultCountTest()[pri:1, instance:com.qa.flipkart.tests.GoogleResultTest@23a5fd2]" name="googleResultCountTest" duration-ms="31" started-at="2020-12-18T22:12:25 IST" finished-at="2020-12-18T22:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleResultCountTest -->
+        <test-method status="PASS" signature="googleResultLinkTest()[pri:2, instance:com.qa.flipkart.tests.GoogleResultTest@23a5fd2]" name="googleResultLinkTest" duration-ms="5351" started-at="2020-12-18T22:12:25 IST" finished-at="2020-12-18T22:12:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleResultLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.flipkart.tests.GoogleResultTest@23a5fd2]" name="tearDown" is-config="true" duration-ms="1342" started-at="2020-12-18T22:12:30 IST" finished-at="2020-12-18T22:12:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.flipkart.tests.GoogleResultTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
